@@ -1,4 +1,4 @@
-Unqork Activity Finder App
+Activity Finder App
 
 ### Installation
 
