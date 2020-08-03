@@ -32,7 +32,7 @@ export default function Activity() {
   const populateActivity = () => {
     setActivityDetails(null); // reset activity while loading
 
-    axios.get(`http://www.boredapi.com/api/activity?type=${activityType}`)
+    axios.get(`https://www.boredapi.com/api/activity?type=${activityType}`)
       .then(res => {
         if (!res.data || res.data.error) {
           setError(res?.data?.error || 'Something went wrong');
