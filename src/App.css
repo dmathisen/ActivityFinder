@@ -46,7 +46,7 @@ main {
   padding: 10px 25px;
   border: 1px solid #ddd;
   background-color: #fff;
-  background-image: url(/images/unqork-background.png);
+  background-image: url(/images/background.png);
   background-position: bottom right;
   background-size: cover;
 }
